@@ -42,5 +42,5 @@ if __name__ == "__main__":
     parser.add_argument('--output', type=str, default='vk_data.json', help="Output JSON file path")
     args = parser.parse_args()
 
-    token = 'vk1.a.rWW-LeY-e8HgLiAfLttjO9PTTbN4PcA1ECv_s6oMtsWjXjlkbDa5c6ehaJOuq8roFyZ-HUrTv5xhTqM9W72hzZRN3y45xyYQ3gL_dayoG1M6bUKUtSzqzEZTi1Px8z6E0Hx41peugFLCGtML-JajyDsvt1TeGwXIMokPnZ9_mHjde8SsauqMgJvZh9doiXvb'
+    token = 'Ваш токен VK'
     main(args.user_id, args.output, token)
